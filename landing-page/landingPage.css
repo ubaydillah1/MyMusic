@@ -1,0 +1,402 @@
+/* navbar */
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: var(--background-navbar);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+  border-bottom: 1px solid rgba(231, 227, 252, 0.23);
+  position: relative;
+}
+
+/* -- logo-brand */
+.logo-brand {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 272px;
+  height: 100%;
+  border-right: 1px solid rgba(231, 227, 252, 0.23);
+}
+
+.mymusic {
+  margin-left: 10px;
+}
+
+/* --search-feature */
+
+.search-feature {
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.input-search {
+  background-color: rgba(231, 227, 252, 0.04);
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  padding: 12px 40px 12px 40px;
+  color: var(--text-light-secondary);
+  width: 100%;
+}
+
+.input-search::placeholder {
+  color: var(--text-light-secondary);
+}
+
+.search-icon {
+  position: absolute;
+  top: 28px;
+  left: 10px;
+}
+
+/* -- notification and profile */
+.profile {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-left: 1px solid rgba(231, 227, 252, 0.23);
+  padding: 18px 0px 18px 40px;
+}
+
+.notification {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(253, 232, 210, 0.2);
+  width: 44px;
+  height: 44px;
+  margin-right: 38px;
+  cursor: pointer;
+}
+
+.sum-notification {
+  width: 26px;
+  height: 26px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  position: absolute;
+  right: -13px;
+  top: -13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-content p {
+  color: var(--text-light-secondary);
+  margin-left: 17px;
+}
+
+/* -- hamburger-menu */
+
+.hamburger-menu {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  display: none;
+}
+
+.line {
+  width: 24px;
+  height: 3px;
+  margin-bottom: 5px;
+  background-color: var(--text-light-secondary);
+}
+
+/* --next icon */
+.next-icon {
+  position: absolute;
+  left: 30px;
+  top: 30px;
+  display: none;
+}
+
+/* aside */
+.aside-nav {
+  height: 100%;
+  width: 272px;
+  background-color: var(--background-navbar);
+  padding: 16px 40px 16px 40px;
+  border-right: 1px solid rgba(231, 227, 252, 0.23);
+}
+
+.title-text {
+  color: white;
+  margin: 16px 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.menu-list {
+  position: relative;
+}
+
+.menu-list li {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 56px;
+  cursor: pointer;
+}
+
+.menu-list li img {
+  color: var(--text-light-secondary);
+}
+
+.menu-list li p {
+  margin-left: 10px;
+  color: var(--text-light-secondary);
+}
+
+.menu-list li .white {
+  color: white;
+}
+
+.menu-list li .white::before {
+  content: "";
+  width: 6px;
+  height: 16px;
+  border-radius: 2px;
+  background-color: var(--primary-color);
+  position: absolute;
+  top: 20px;
+  left: -13px;
+}
+
+.my-music-section {
+  margin-top: 30px;
+}
+
+.my-playlist-section {
+  margin-top: 20px;
+  width: 192px;
+}
+
+.add {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add svg {
+  cursor: pointer;
+}
+
+.button-playlist button {
+  padding: 4px 10px 4px 10px;
+  background-color: #28243d;
+  border: none;
+  cursor: pointer;
+  margin-right: 4px;
+}
+
+.image-list {
+  margin-top: 20px;
+}
+
+.image-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image-list li img {
+  border-radius: 4px;
+}
+
+.image-list li .image-content {
+  margin-left: 10px;
+}
+
+/* bar song */
+
+.song-bar {
+  width: 100%;
+  height: 114px;
+  background-color: #312d4b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px 12px 40px;
+  position: fixed;
+  bottom: 0;
+}
+
+/* --card */
+.card-bar {
+  display: flex;
+  align-items: center;
+  width: 250px;
+}
+
+.card-bar img {
+  border-radius: 4px;
+}
+
+.card-bar .image-content {
+  margin-left: 20px;
+}
+
+.text-20 {
+  font-size: 20px;
+}
+
+.text-18 {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+/* --start music */
+
+.start-music {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.volume music {
+  font-family: "Lato";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.start-music-icon {
+  display: flex;
+  align-items: center;
+}
+
+svg {
+  cursor: pointer;
+}
+
+.play {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46.67px;
+  height: 46.67px;
+  border-radius: 50%;
+  background-color: #838193;
+  cursor: pointer;
+}
+
+.ml-5 {
+  margin-right: 50px;
+}
+
+.mr-5 {
+  margin-left: 50px;
+}
+
+.bar-main {
+  width: 308px;
+  height: 6px;
+  background-color: #383452;
+  margin: auto;
+  border-radius: 4px;
+  position: relative;
+}
+
+.progress-main {
+  width: 40%;
+  height: 6px;
+  background-color: white;
+  margin: auto;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.sum-music {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.sum-music p {
+  margin: 0 20px;
+}
+
+/* volume */
+
+.volume-container {
+  width: 240px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.volume-main {
+  width: 100%;
+  height: 6px;
+  background-color: #383452;
+  margin: auto;
+  border-radius: 4px;
+  position: relative;
+}
+
+.volume-container svg {
+  margin: 0 10px;
+}
+
+.progress-bar-volume {
+  width: 70%;
+  height: 6px;
+  background-color: white;
+  margin: auto;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (max-width: 500px) {
+  /* navbar */
+  .logo-brand {
+    border: none;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .profile {
+    display: none;
+  }
+
+  .search-feature {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+  }
+
+  .next-icon {
+    display: block;
+  }
+  /* song bar */
+
+  aside {
+    display: none;
+  }
+
+  .song-bar {
+    display: none;
+  }
+}

@@ -1,0 +1,142 @@
+/* navbar */
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  background-color: var(--background-navbar);
+  display: flex;
+  align-items: center;
+  padding: 24px;
+}
+
+.mymusic {
+  margin-left: 10px;
+}
+
+.login-container {
+  background-color: var(--background-login-register);
+  width: 450px;
+  margin: 50px auto;
+  padding: 36px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.welcome {
+  margin-top: 7px;
+}
+
+.welcome p {
+  margin-bottom: 15px;
+}
+
+.text-content {
+  display: flex;
+}
+
+.login {
+  background-color: transparent;
+  border: none;
+  width: 100%;
+  padding: 10px 0 2px 0;
+  border-bottom: 1px solid rgba(231, 227, 252, 0.23);
+  outline: none;
+}
+
+input[type="password"] {
+  margin-top: 25px;
+}
+
+.link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox label {
+  margin-left: 5px;
+}
+
+.mt {
+  margin-top: 25px;
+}
+
+#checkbox {
+  width: 18px;
+  height: 18px;
+  box-shadow: inset 0 0 5px var(--primary-color);
+}
+
+.button-login {
+  width: 100%;
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  height: 42px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+}
+
+.button-login:hover,
+.google-login:hover {
+  opacity: 0.8;
+}
+
+.create-account {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.google-login {
+  width: 100%;
+  background-color: var(--secondary-color);
+  border-radius: 4px;
+  height: 42px;
+  cursor: pointer;
+  margin-top: 20px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.google-login p {
+  margin-left: 10px;
+}
+
+.or {
+  position: relative;
+  border-bottom: 1px solid rgba(231, 227, 252, 0.23);
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.or p {
+  text-align: center;
+  background-color: var(--background-login-register);
+  width: 36px;
+  height: 22px;
+  border: 5px;
+  position: absolute;
+  top: -22px;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    justify-content: center;
+  }
+
+  .login-container {
+    max-width: 312px;
+    margin-top: 30px;
+    padding: 24px;
+  }
+}

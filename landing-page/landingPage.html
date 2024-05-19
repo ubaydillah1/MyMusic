@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="landingPage.css" />
+    <link rel="stylesheet" href="../default-css/default.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo-brand">
+        <img
+          src="../assets/icon/logo.png"
+          alt="MyMusic"
+          width="34px"
+          height="34px"
+        />
+        <p class="brand-nav mymusic">MyMusic</p>
+      </div>
+
+      <div class="search-feature">
+        <img
+          src="../assets/icon/Material Icon.png"
+          alt="search"
+          class="search-icon"
+        />
+        <input
+          type="text"
+          placeholder="Search Song, Album, Singer..."
+          class="input-search body-2"
+        />
+      </div>
+
+      <div class="profile">
+        <div class="notification">
+          <div class="sum-notification">
+            <p class="body-nav">12</p>
+          </div>
+          <img src="../assets/icon/notification.png" alt="notification" />
+        </div>
+        <div class="profile-content">
+          <img src="../assets/img/Avatar.png" alt="" />
+          <p class="body-1">Hi, Jennie</p>
+        </div>
+      </div>
+
+      <div class="hamburger-menu">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+
+      <div class="next-icon">
+        <img src="../assets/icon/arrow-right.png" alt="Next" />
+      </div>
+    </nav>
+
+    <aside class="aside-nav">
+      <div class="menu-section">
+        <p class="title-text">Menu</p>
+
+        <ul class="menu-list">
+          <li>
+            <img src="../assets/icon/home.png" alt="home" />
+            <p class="white">Home</p>
+          </li>
+          <li>
+            <img src="../assets/icon/discover.png" alt="discover" />
+            <p>Discover</p>
+          </li>
+          <li>
+            <img src="../assets/icon/artist.png" alt="artist" />
+            <p>Artist</p>
+          </li>
+          <li>
+            <img src="../assets/icon/Play.png" alt="play" />
+            <p>Songs</p>
+          </li>
+          <li>
+            <img src="../assets/icon/albums.png" alt="albums" />
+            <p>Albums</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="my-music-section">
+        <p class="title-text">My Music</p>
+
+        <ul class="menu-list">
+          <li>
+            <img src="../assets/icon/half-heart.png" alt="heart" />
+            <p>My Favorites</p>
+          </li>
+          <li>
+            <img src="../assets/icon/clock.png" alt="discover" />
+            <p>Recently Played</p>
+          </li>
+        </ul>
+      </div>
+
+      <div class="my-playlist-section">
+        <div class="add">
+          <p class="title-text">My Playlist</p>
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              opacity="0.4"
+              d="M16.6667 2H7.33333C3.92889 2 2 3.92889 2 7.33333V16.6667C2 20.0622 3.92 22 7.33333 22H16.6667C20.0711 22 22 20.0622 22 16.6667V7.33333C22 3.92889 20.0711 2 16.6667 2Z"
+              fill="white"
+            />
+            <path
+              d="M15.3205 12.7083H12.7495V15.257C12.7495 15.6673 12.4139 16 12 16C11.5861 16 11.2505 15.6673 11.2505 15.257V12.7083H8.67955C8.29342 12.6687 8 12.3461 8 11.9613C8 11.5765 8.29342 11.2539 8.67955 11.2143H11.2424V8.67365C11.2824 8.29088 11.6078 8 11.996 8C12.3842 8 12.7095 8.29088 12.7495 8.67365V11.2143H15.3205C15.7066 11.2539 16 11.5765 16 11.9613C16 12.3461 15.7066 12.6687 15.3205 12.7083Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+
+        <div class="button-playlist">
+          <button class="body-nav">Album</button>
+          <button class="body-nav">Playlist</button>
+        </div>
+
+        <ul class="image-list">
+          <li>
+            <img
+              src="../assets/img/Nadin_Amizah_-_Selamat_Ulang_Tahun.jpg"
+              alt="image"
+            />
+            <div class="image-content">
+              <p class="body-1 text-secondary">Selamat Ulang...</p>
+              <p class="body-nav text-secondary">Nadin Amizah</p>
+            </div>
+          </li>
+          <li>
+            <img src="../assets/img/Midnights_-_Taylor_Swift.jpg" alt="image" />
+            <div class="image-content">
+              <p class="body-1 text-secondary">Midnights</p>
+              <p class="body-nav text-secondary">Taylor Swift</p>
+            </div>
+          </li>
+          <li>
+            <img src="../assets/img/Taylor_Swift_-_Red.jpg" alt="image" />
+            <div class="image-content">
+              <p class="body-1 text-secondary">Red</p>
+              <p class="body-nav text-secondary">Taylor Swift</p>
+            </div>
+          </li>
+          <li>
+            <img src="../assets/img/frame1.jpg" alt="image" />
+            <div class="image-content">
+              <p class="body-1 text-secondary">Taylor’s...</p>
+              <p class="body-nav text-secondary">Jennie</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="song-bar">
+      <div class="card-bar">
+        <img
+          src="../assets/img/Taylor_Swift_-_Red.jpg"
+          alt="image"
+          width="74px"
+        />
+        <div class="image-content">
+          <p class="body-1 text-secondary text-20">Red</p>
+          <p class="body-nav text-secondary text-18">Taylor Swift</p>
+        </div>
+      </div>
+
+      <div class="start-music">
+        <div class="start-music-icon">
+          <svg
+            class="ml-5"
+            width="19"
+            height="20"
+            viewBox="0 0 19 20"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6.52318 7.52397C6.98185 7.06853 6.98286 6.32691 6.52536 5.87029L2.1344 1.48781C1.6798 1.03409 0.943564 1.03444 0.489401 1.48861C0.0349275 1.94308 0.0349276 2.67993 0.489401 3.1344L4.87612 7.52112C5.3306 7.9756 6.0671 7.97684 6.52318 7.52397ZM14.2968 0.666504C13.4184 0.666504 12.9785 1.7285 13.5996 2.34961C13.9845 2.73454 13.9847 3.35859 13.5999 3.74367L0.488676 16.8653C0.0345502 17.3198 0.0346966 18.0564 0.489004 18.5107C0.943311 18.965 1.67984 18.9651 2.13433 18.511L15.256 5.39978C15.6411 5.01501 16.2651 5.01513 16.6501 5.40006C17.2712 6.02117 18.3332 5.58127 18.3332 4.70289V1.83317C18.3332 1.18884 17.8108 0.666504 17.1665 0.666504H14.2968ZM13.124 12.4673C12.6698 12.0131 11.9333 12.0131 11.479 12.4673C11.0247 12.9216 11.0247 13.6581 11.479 14.1123L13.6077 16.241C13.9945 16.6279 13.9945 17.2551 13.6077 17.642C12.9836 18.2661 13.4256 19.3332 14.3082 19.3332H17.1665C17.8108 19.3332 18.3332 18.8108 18.3332 18.1665V15.2965C18.3332 14.4182 17.2713 13.9784 16.6503 14.5994C16.2653 14.9844 15.6411 14.9844 15.2561 14.5994L13.124 12.4673Z"
+              fill="#9D9EA1"
+            />
+          </svg>
+
+          <svg
+            class="ml-5"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.5 2.25C0.5 1.2835 1.2835 0.5 2.25 0.5C3.2165 0.5 4 1.2835 4 2.25V19.75C4 20.7165 3.2165 21.5 2.25 21.5C1.2835 21.5 0.5 20.7165 0.5 19.75V2.25ZM8.6504 9.57031C7.66266 10.2675 7.66266 11.7325 8.6504 12.4297L18.7408 19.5523C19.9 20.3706 21.5 19.5416 21.5 18.1226V3.87736C21.5 2.45843 19.9 1.62939 18.7408 2.44767L8.6504 9.57031Z"
+              fill="#C1C2C4"
+            />
+          </svg>
+
+          <div class="play">
+            <svg
+              width="12"
+              height="14"
+              viewBox="0 0 12 14"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M0.000488281 13C0.000488281 13.5523 0.448204 14 1.00049 14H3.00049C3.55277 14 4.00049 13.5523 4.00049 13V1C4.00049 0.447716 3.55277 0 3.00049 0H1.00049C0.448204 0 0.000488281 0.447715 0.000488281 1V13ZM9.00049 0C8.4482 0 8.00049 0.447715 8.00049 1V13C8.00049 13.5523 8.4482 14 9.00049 14H11.0005C11.5528 14 12.0005 13.5523 12.0005 13V1C12.0005 0.447716 11.5528 0 11.0005 0H9.00049Z"
+                fill="white"
+              />
+            </svg>
+          </div>
+
+          <svg
+            class="mr-5"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M0.5 18.1226C0.5 19.5416 2.09997 20.3706 3.2592 19.5523L13.3496 12.4297C14.3373 11.7325 14.3373 10.2675 13.3496 9.57031L3.25919 2.44767C2.09997 1.62939 0.5 2.45843 0.5 3.87736V18.1226ZM19.75 0.5C18.7835 0.5 18 1.2835 18 2.25V19.75C18 20.7165 18.7835 21.5 19.75 21.5C20.7165 21.5 21.5 20.7165 21.5 19.75V2.25C21.5 1.2835 20.7165 0.5 19.75 0.5Z"
+              fill="#C1C2C4"
+            />
+          </svg>
+
+          <svg
+            class="mr-5"
+            width="22"
+            height="22"
+            viewBox="0 0 22 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5.16667 6.33301C5.16667 5.68868 5.689 5.16634 6.33333 5.16634H15.8082C16.3744 5.16634 16.8333 5.62531 16.8333 6.19147C16.8333 7.10476 17.9375 7.56213 18.5833 6.91634L20.675 4.82463C21.1307 4.36902 21.1307 3.63033 20.675 3.17472L18.5833 1.08301C17.9375 0.437213 16.8333 0.894592 16.8333 1.80788C16.8333 2.37404 16.3744 2.83301 15.8082 2.83301H4C3.35567 2.83301 2.83333 3.35534 2.83333 3.99967V8.66634C2.83333 9.31067 3.35567 9.83301 4 9.83301C4.64433 9.83301 5.16667 9.31067 5.16667 8.66634V6.33301ZM16.8333 15.6663C16.8333 16.3107 16.311 16.833 15.6667 16.833H6.19179C5.62563 16.833 5.16667 16.374 5.16667 15.8079C5.16667 14.8946 4.06246 14.4372 3.41667 15.083L1.32496 17.1747C0.869345 17.6303 0.869346 18.369 1.32496 18.8246L3.41667 20.9163C4.06246 21.5621 5.16667 21.1048 5.16667 20.1915C5.16667 19.6253 5.62563 19.1663 6.19179 19.1663H18C18.6443 19.1663 19.1667 18.644 19.1667 17.9997V13.333C19.1667 12.6887 18.6443 12.1663 18 12.1663C17.3557 12.1663 16.8333 12.6887 16.8333 13.333V15.6663Z"
+              fill="#9D9EA1"
+            />
+          </svg>
+        </div>
+        <div class="progress-bar-container">
+          <div class="sum-music">
+            <p class="text-secondary">1.21</p>
+
+            <div class="progress-bar">
+              <div class="bar-main">
+                <div class="progress-main"></div>
+              </div>
+            </div>
+
+            <p class="text-secondary">6.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="volume-container">
+        <svg
+          width="16"
+          height="20"
+          viewBox="0 0 16 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M5.22 5H0.78C0.3 4.47 0 3.77 0 3C0 1.34 1.34 0 3 0C4.66 0 6 1.34 6 3C6 3.77 5.7 4.47 5.22 5ZM12 0C14.21 0 16 1.79 16 4V20H14V4C14 2.9 13.1 2 12 2C10.9 2 10 2.9 10 4V16C10 18.21 8.21 20 6 20C3.79 20 2 18.21 2 16H1L0 6H6L5 16H4C4 17.1 4.9 18 6 18C7.1 18 8 17.1 8 16V4C8 1.79 9.79 0 12 0Z"
+            fill="#C1C2C4"
+          />
+        </svg>
+
+        <svg
+          width="18"
+          height="18"
+          viewBox="0 0 18 18"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M12.3716 3.45056C12.3212 2.96422 12.2687 2.45963 12.1396 1.95611C11.7879 0.75153 10.8136 9.59513e-06 9.76905 9.59513e-06C9.1864 -0.00213761 8.44942 0.356445 8.03159 0.719322L4.56822 3.61697H2.75517C1.42084 3.61697 0.347918 4.6444 0.145301 6.12705C-0.02687 7.55064 -0.0688631 10.2379 0.145301 11.8042C0.33112 13.3706 1.35575 14.383 2.75517 14.383H4.56822L8.09878 17.3236C8.46097 17.6382 9.10031 17.9989 9.68822 17.9989C9.72601 18 9.7596 18 9.7932 18C10.8577 18 11.7952 17.2206 12.1469 16.0192C12.2802 15.5082 12.3264 15.0293 12.3716 14.5666L12.4188 14.1082C12.5994 12.6213 12.5994 5.36908 12.4188 3.89288L12.3716 3.45056Z"
+            fill="#C1C2C4"
+          />
+          <path
+            opacity="0.4"
+            d="M16.4263 3.49442C16.1397 3.07035 15.5665 2.96514 15.1476 3.25823C14.7319 3.55455 14.629 4.14073 14.9177 4.56588C15.7208 5.74898 16.1628 7.32288 16.1628 8.99985C16.1628 10.6757 15.7208 12.2507 14.9177 13.4338C14.629 13.859 14.7319 14.4451 15.1476 14.7415C15.302 14.851 15.4836 14.9089 15.6715 14.9089C15.9728 14.9089 16.2542 14.7576 16.4263 14.5053C17.4405 13.0119 18 11.0569 18 8.99985C18 6.94283 17.4405 4.9878 16.4263 3.49442Z"
+            fill="#C1C2C4"
+          />
+        </svg>
+
+        <div class="volume-main">
+          <div class="progress-bar-volume"></div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
