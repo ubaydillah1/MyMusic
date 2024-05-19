@@ -60,7 +60,9 @@
             >
           </div>
 
-          <button class="button-login body-login-register-1">Login</button>
+          <button class="button-login body-login-register-1 to-landing-page">
+            Login
+          </button>
 
           <p class="create-account body-login-register-2 text-secondary">
             New on our platform?
@@ -75,12 +77,24 @@
             <p>or</p>
           </div>
 
-          <button class="google-login">
+          <button class="google-login to-landing-page">
             <img src="assets/icon/google.png" alt="Google" class="" />
             <p class="text-primary body-login-register-1">Login with Google</p>
           </button>
         </form>
       </div>
     </section>
+
+    <script>
+      const button = document.querySelectorAll(".to-landing-page");
+
+      button.forEach((a) => {
+        a.addEventListener("click", (e) => {
+          e.preventDefault();
+          console.log(a);
+          window.location.href = "landing-page/landingPage.html";
+        });
+      });
+    </script>
   </body>
 </html>
