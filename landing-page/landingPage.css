@@ -108,6 +108,7 @@
   right: 30px;
   top: 30px;
   display: none;
+  cursor: pointer;
 }
 
 .line {
@@ -127,7 +128,6 @@
 
 /* aside */
 .aside-nav {
-  height: 100%;
   width: 272px;
   background-color: var(--background-navbar);
   padding: 16px 40px 16px 40px;
@@ -223,11 +223,133 @@
   margin-left: 10px;
 }
 
+/* main */
+
+.frame {
+  display: flex;
+}
+
+main {
+  padding: 40px;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.heading-frame {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-frame-1,
+.container-frame-2,
+.container-frame-3,
+.container-frame-4 {
+  position: relative;
+}
+
+.container-frame-4 {
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.container-frame-2,
+.container-frame-3 {
+  margin-top: 30px;
+}
+
+.album-image {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+  gap: 10px;
+}
+
+.card-album {
+  display: flex;
+  flex-direction: column;
+  width: 198px;
+  padding: 16px;
+  height: 257px;
+  background: rgba(255, 255, 255, 0.05);
+  flex: 0 0 auto;
+  position: relative;
+  border-radius: 4px;
+}
+
+.content-album {
+  margin-top: 8px;
+}
+
+.content-album > p {
+  margin-top: 2px;
+}
+
+.content-album p {
+  margin-bottom: 10px;
+}
+
+.more-info {
+  width: 20px;
+  height: 20px;
+  background-color: #858291;
+  display: flex;
+  flex-direction: column;
+  border-radius: 6px;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  position: absolute;
+  right: 17px;
+  bottom: 44px;
+  cursor: pointer;
+}
+
+span.circle {
+  width: 2.4px;
+  height: 2.4px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/* --card-song */
+
+.favourite-songs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.card-song {
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  padding: 16px;
+  border-radius: 4px;
+  position: relative;
+  width: 370px;
+}
+
+.card-song-content {
+  margin-left: 10px;
+}
+
+.card-song-content p {
+  margin: 5px 0;
+}
+
 /* bar song */
 
 .song-bar {
   width: 100%;
   height: 114px;
+  border-top: 1px solid rgba(231, 227, 252, 0.23);
   background-color: #312d4b;
   display: flex;
   align-items: center;
@@ -346,7 +468,7 @@ svg {
 .volume-main {
   width: 100%;
   height: 6px;
-  background-color: #383452;
+  background-color: rgba(0, 0, 0, 0.4);
   margin: auto;
   border-radius: 4px;
   position: relative;
@@ -398,5 +520,30 @@ svg {
 
   .song-bar {
     display: none;
+  }
+
+  .favourite-songs {
+    height: 280px;
+    overflow: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+  }
+
+  .card-song {
+    width: 100%;
+  }
+
+  /* show all */
+
+  .show-all {
+    position: absolute;
+    bottom: -30px;
+    cursor: pointer;
+  }
+
+  .container-frame-2,
+  .container-frame-3,
+  .container-frame-4 {
+    margin-top: 60px;
   }
 }

@@ -53,6 +53,12 @@ body {
   font-size: 16px;
 }
 
+.artist {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 .body-nav {
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -75,6 +81,18 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-size: 14px;
+}
+
+.header-songs-content {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.show-all {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
 }
 
 /* text */
@@ -114,6 +132,10 @@ body {
     font-size: 12px;
   }
 
+  .artist {
+    font-size: 12px;
+  }
+
   .body-login-register-1 {
     font-size: 14px;
   }
@@ -126,5 +148,13 @@ body {
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 16px;
+  }
+
+  .header-songs-content {
+    font-size: 16px;
+  }
+
+  .show-all {
+    font-size: 14px;
   }
 }
