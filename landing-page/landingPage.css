@@ -546,4 +546,19 @@ svg {
   .container-frame-4 {
     margin-top: 60px;
   }
+
+  .card-album {
+    width: 148px;
+    height: 195px;
+  }
+
+  .card-song {
+    height: 74px;
+    display: flex;
+    align-items: center;
+  }
+
+  .more-info {
+    bottom: 34px;
+  }
 }
